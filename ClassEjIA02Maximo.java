@@ -24,6 +24,9 @@ public class ClassEjIA02Maximo {
             ncomparaciones = Integer.parseInt(in.nextLine());
         }
 
+        System.out.println("------------------------");
+        System.out.println("------------------------");
+
         int[] numeros = new int[ncomparaciones];
         int mayor = 0;
         int indexMayor = 0;
@@ -45,8 +48,8 @@ public class ClassEjIA02Maximo {
         for (int i = 0;i < numeros.length;i++){
             System.out.print(numeros[i] + ", ");
         }
-        System.out.println("El numero mayor es: " + mayor);
-        System.out.println("La posición del mayor(" + mayor + ")" + " es: " + indexMayor + "si comenzamos a contar por 0 en primer lugar");
+        System.out.println("");
+        System.out.println("La posición del mayor(" + mayor + ")" + " es: " + indexMayor + " si comenzamos a contar por 0 en primer lugar");
 
         in.close(); // Cierra el scanner
         
